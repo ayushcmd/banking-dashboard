@@ -1,0 +1,54 @@
+Bank,Year,Category,Sub_Category,Amount_Crore,Bank_Type,Bank_Size
+SBI,2020,Assets,Total Advances (Loans Given),2324613,Public,Large
+SBI,2020,Assets,Investments,1146490,Public,Large
+SBI,2020,Assets,Cash & Bank Balances,241445,Public,Large
+SBI,2020,Assets,Fixed Assets,42384,Public,Large
+SBI,2020,Assets,Other Assets,188150,Public,Large
+SBI,2020,Liabilities,Deposits (Customer Money),3241620,Public,Large
+SBI,2020,Liabilities,Borrowings,415370,Public,Large
+SBI,2020,Liabilities,Other Liabilities,98530,Public,Large
+SBI,2020,Equity,Share Capital,892,Public,Large
+SBI,2020,Equity,Reserves & Surplus,250560,Public,Large
+SBI,2021,Assets,Total Advances (Loans Given),2491917,Public,Large
+SBI,2021,Assets,Investments,1293610,Public,Large
+SBI,2021,Assets,Cash & Bank Balances,281330,Public,Large
+SBI,2021,Assets,Fixed Assets,44210,Public,Large
+SBI,2021,Assets,Other Assets,196420,Public,Large
+SBI,2021,Liabilities,Deposits (Customer Money),3688931,Public,Large
+SBI,2021,Liabilities,Borrowings,398420,Public,Large
+SBI,2021,Liabilities,Other Liabilities,102140,Public,Large
+SBI,2021,Equity,Share Capital,892,Public,Large
+SBI,2021,Equity,Reserves & Surplus,278830,Public,Large
+SBI,2022,Assets,Total Advances (Loans Given),2776861,Public,Large
+SBI,2022,Assets,Investments,1409480,Public,Large
+SBI,2022,Assets,Cash & Bank Balances,260890,Public,Large
+SBI,2022,Assets,Fixed Assets,46120,Public,Large
+SBI,2022,Assets,Other Assets,209430,Public,Large
+SBI,2022,Liabilities,Deposits (Customer Money),4063273,Public,Large
+SBI,2022,Liabilities,Borrowings,412780,Public,Large
+SBI,2022,Liabilities,Other Liabilities,109650,Public,Large
+SBI,2022,Equity,Share Capital,892,Public,Large
+SBI,2022,Equity,Reserves & Surplus,306960,Public,Large
+SBI,2023,Assets,Total Advances (Loans Given),3161163,Public,Large
+SBI,2023,Assets,Investments,1599200,Public,Large
+SBI,2023,Assets,Cash & Bank Balances,295380,Public,Large
+SBI,2023,Assets,Fixed Assets,50740,Public,Large
+SBI,2023,Assets,Other Assets,242750,Public,Large
+SBI,2023,Liabilities,Deposits (Customer Money),4484704,Public,Large
+SBI,2023,Liabilities,Borrowings,525120,Public,Large
+SBI,2023,Liabilities,Other Liabilities,130810,Public,Large
+SBI,2023,Equity,Share Capital,892,Public,Large
+SBI,2023,Equity,Reserves & Surplus,348800,Public,Large
+SBI,2024,Assets,Total Advances (Loans Given),3714100,Public,Large
+SBI,2024,Assets,Investments,1793280,Public,Large
+SBI,2024,Assets,Cash & Bank Balances,318450,Public,Large
+SBI,2024,Assets,Fixed Assets,54800,Public,Large
+SBI,2024,Assets,Other Assets,280100,Public,Large
+SBI,2024,Liabilities,Deposits (Customer Money),4904506,Public,Large
+SBI,2024,Liabilities,Borrowings,598700,Public,Large
+SBI,2024,Liabilities,Other Liabilities,158400,Public,Large
+SBI,2024,Equity,Share Capital,892,Public,Large
+SBI,2024,Equity,Reserves & Surplus,393250,Public,Large
+HDFC Bank,2020,Assets,Total Advances (Loans Given),1001420,Private,Large
+HDFC Bank,2020,Assets,Investments,391800,Private,Large
+HDFC Bank,2020,Assets,Cash & Bank Balances,157480
