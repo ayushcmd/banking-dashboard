@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from pages import sql_explorer
 
 st.set_page_config(page_title="India's Banking Dashboard", page_icon="🏦", layout="wide", initial_sidebar_state="collapsed")
 
@@ -454,7 +455,7 @@ with r2c:
 
 # ── ACTION ROW ────────────────────────────────────────────
 st.markdown("<div style='height:1px;background:rgba(196,149,106,0.3);'></div>", unsafe_allow_html=True)
-ba, bb, bc = st.columns(3)
+ba, bb, bc, bd = st.columns(4)
 
 with ba:
     if st.button("🤖 AI Sector Insight", use_container_width=True):
@@ -485,6 +486,10 @@ with bb:
 with bc:
     if st.button("🔍 Bank Deep Dive →", use_container_width=True):
         st.switch_page("pages/bank_detail.py")
+
+with bd: 
+    if st.button("🗄️ SQL Explorer →", use_container_width=True):
+        st.switch_page("pages/sql_explorer.py")
 
 # ── FOOTER ────────────────────────────────────────────────
 st.markdown("""
