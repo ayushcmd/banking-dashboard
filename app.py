@@ -32,7 +32,7 @@ html, body, [class*="css"], .stApp {
     position: fixed;
     top: 0; left: 0;
     width: 100vw; height: 100vh;
-    background: linear-gradient(135deg, #FDF6EC 0%, #F9EDE3 40%, #FDF0F5 100%);
+    background: linear-gradient(135deg, #C69D5F 0%, #BDB9B6 40%, #7DC8DB 100%);
     z-index: 0;
     overflow: hidden;
 }
@@ -458,7 +458,7 @@ st.markdown("<div style='height:1px;background:rgba(196,149,106,0.3);'></div>", 
 ba, bb, bc, bd = st.columns(4)
 
 with ba:
-    if st.button("🤖 AI Sector Insight", use_container_width=True):
+    if st.button(" AI Sector Insight", use_container_width=True):
         with st.spinner("Analysing..."):
             try:
                 from utils.ai_insights import get_sector_insight
@@ -484,12 +484,40 @@ with bb:
             st.error(f"PDF error: {e}")
 
 with bc:
-    if st.button("🔍 Bank Deep Dive →", use_container_width=True):
+    if st.button(" Bank Deep Dive →", use_container_width=True):
         st.switch_page("pages/bank_detail.py")
 
 with bd: 
-    if st.button("🗄️ SQL Explorer →", use_container_width=True):
+    if st.button(" SQL Explorer →", use_container_width=True):
         st.switch_page("pages/sql_explorer.py")
+
+# ── FEATURE PAGES ROW ────────────────────────────────────
+st.markdown("<div style='height:2px;background:rgba(196,149,106,0.15);'></div>", unsafe_allow_html=True)
+fe1, fe2, fe3, fe4, fe5, fe6 = st.columns(6)
+
+with fe1:
+    if st.button(" Bank Safety →", use_container_width=True):
+        st.switch_page("pages/bank_safety.py")
+
+with fe2:
+    if st.button(" FD & Loan Rates →", use_container_width=True):
+        st.switch_page("pages/fd_loan_rates.py")
+
+with fe3:
+    if st.button(" EMI Calculator →", use_container_width=True):
+        st.switch_page("pages/emi_calculator.py")
+
+with fe4:
+    if st.button(" Should I Switch? →", use_container_width=True):
+        st.switch_page("pages/bank_advisor.py")
+
+with fe5:
+    if st.button(" RBI News →", use_container_width=True):
+        st.switch_page("pages/rbi_news.py")
+
+with fe6:
+    if st.button(" Account Holders →", use_container_width=True):
+        st.switch_page("pages/account_holders.py")
 
 # ── FOOTER ────────────────────────────────────────────────
 st.markdown("""
